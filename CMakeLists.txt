@@ -3,4 +3,4 @@ project(posix_thread C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(posix_thread main.c lab1/lab1.c lab3/lab3.c lab1/lab1.h labs.h lab3/lab3.h)
+add_executable(posix_thread main.c lab1/lab1.c lab3/lab3.c lab1/lab1.h labs.h lab3/lab3.h lab17/lab17.c lab17/lab17.h lab17/list.c lab17/list.h)

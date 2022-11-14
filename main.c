@@ -1,6 +1,6 @@
 #include "labs.h"
 
 int main() {
-    lab3();
+    lab17();
     return 0;
 }
