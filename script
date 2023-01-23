@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in {1..16} ; do
+# shellcheck disable=SC2238
+./cmake-build-debug/posix_thread "$i" >> times
+done
+

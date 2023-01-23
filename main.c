@@ -1,6 +1,6 @@
 #include "labs.h"
 
-int main() {
-    lab17();
+int main(int argc, char** argv) {
+    lab8(argc, argv);
     return 0;
 }

@@ -1,4 +1,9 @@
 #pragma once
 #include "lab1/lab1.h"
 #include "lab3/lab3.h"
+#include "lab8/lab8.h"
 #include "lab17/lab17.h"
+#include "lab18/lab18.h"
+#include "lab24/lab24.h"
+//#include "lab25/lab25.h"
+#include "lab26/lab26.h"

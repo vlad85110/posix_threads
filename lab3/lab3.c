@@ -14,12 +14,17 @@ char** create_strings(int len);
 void free_strings(Args **args, int len);
 
 void lab3() {
-    pthread_t childs[4];
+    pthread_t children[4];
     Args** arr = (Args**)malloc(4 * sizeof(Args*));
 
     for (int i = 0; i < 4; ++i) {
         pthread_t child;
-        Args *args = (Args*) malloc(sizeof(Args));
+        Args *args = (Args*)malloc(sizeof(Args));
+
+        if (!args) {
+            return;
+        }
+
         arr[i] = args;
         args->strings = create_strings(3);
         args->len = 3;
@@ -28,11 +33,11 @@ void lab3() {
             perror("thread_create");
         }
 
-        childs[i] = child;
+        children[i] = child;
     }
 
     for (int i = 0; i < 4; ++i) {
-        pthread_join(childs[i], NULL);
+        pthread_join(children[i], NULL);
     }
 
     free_strings(arr, 4);
@@ -40,6 +45,7 @@ void lab3() {
 
 char** create_strings(int len) {
     char** strings = (char **)malloc(3 * sizeof(char *));
+
     if (!strings) {
         return NULL;
     }
@@ -47,7 +53,7 @@ char** create_strings(int len) {
     static int sym = 'a';
 
     for (int i = 0; i < len; ++i) {
-        char* str = (char *)malloc(5 * sizeof(char));
+        char* str = (char *)malloc(6 * sizeof(char));
 
         if (!str) {
             return NULL;
@@ -56,6 +62,7 @@ char** create_strings(int len) {
         for (int j = 0; j < 5; ++j) {
             str[j] = (char)(sym + j);
         }
+        str[5] = '\0';
 
         sym += 1;
         strings[i] = str;
@@ -71,6 +78,8 @@ void print_strings(Args* args) {
     for (int i = 0; i < len; ++i) {
         printf("%s\n", strings[i]);
     }
+
+    pthread_exit(0);
 }
 
 void free_strings(Args **args, int len) {
@@ -81,4 +90,13 @@ void free_strings(Args **args, int len) {
         free(args[i]);
     }
 }
+
+
+//что происходит при завершении
+
+//что остается
+
+//где хранится информация о звершившимся потоке
+
+
 

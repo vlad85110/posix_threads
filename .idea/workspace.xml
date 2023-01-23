@@ -3,8 +3,16 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="posix_thread" targetName="posix_thread" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -12,7 +20,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d9a63d1-de49-4643-9dbb-609c069d9e02" name="Changes" comment="" />
+    <list default="true" id="0d9a63d1-de49-4643-9dbb-609c069d9e02" name="Changes" comment="lab17">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab18/lab18.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab18/lab18.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab18/list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab18/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab24/detail.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab24/detail.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab24/lab24.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab24/lab24.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab25/lab25.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab25/lab25.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab25/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab25/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab26/lab26.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab26/lab26.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab26/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab26/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/lab8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/lab8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/times" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab17/lab17.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab17/lab17.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab17/list.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab17/list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/lab3.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/lab3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs.h" beforeDir="false" afterPath="$PROJECT_DIR$/labs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +57,11 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+    <option name="clangWarnings" value="-Wno-unused-variable,-Wno-infinite-recursion,-Wno-array-bounds,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wuninitialized,-Wunused-label,-Wunused-lambda-capture,-Wno-deprecated-declarations" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -45,30 +87,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vladkirilov/CLionProjects/posix_threads/lab8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab8" />
+      <recent name="$PROJECT_DIR$/lab26" />
+      <recent name="$PROJECT_DIR$/lab18" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lab3" />
       <recent name="$PROJECT_DIR$/lab1" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="posix_thread" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="0" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="posix_thread" TARGET_NAME="posix_thread" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="posix_thread" RUN_TARGET_NAME="posix_thread">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -82,10 +134,76 @@
       <updated>1662210596599</updated>
       <workItem from="1662210598830" duration="5793000" />
       <workItem from="1662547213723" duration="4844000" />
+      <workItem from="1665915841873" duration="614000" />
+      <workItem from="1666533915829" duration="706000" />
+      <workItem from="1666534635540" duration="1042000" />
+      <workItem from="1666535731006" duration="26525000" />
+      <workItem from="1667986769929" duration="2228000" />
+      <workItem from="1668159643844" duration="46000" />
+      <workItem from="1668444710515" duration="8892000" />
+      <workItem from="1668530801828" duration="321000" />
+      <workItem from="1668531399809" duration="1266000" />
+      <workItem from="1668587202987" duration="10123000" />
+      <workItem from="1668655831259" duration="1826000" />
+      <workItem from="1668659550417" duration="1000" />
+      <workItem from="1668670364589" duration="12600000" />
+      <workItem from="1668967330007" duration="3738000" />
+      <workItem from="1668971802337" duration="172000" />
+      <workItem from="1669015003969" duration="21793000" />
+      <workItem from="1669360607460" duration="747000" />
+      <workItem from="1669401359187" duration="3838000" />
+      <workItem from="1669654619198" duration="1071000" />
+      <workItem from="1669655871205" duration="2343000" />
+      <workItem from="1669661154108" duration="13000" />
+      <workItem from="1669661691206" duration="617000" />
+      <workItem from="1669707795558" duration="7857000" />
+      <workItem from="1669795103754" duration="5987000" />
+      <workItem from="1670492474997" duration="89000" />
+      <workItem from="1670951695724" duration="2119000" />
+      <workItem from="1671003544932" duration="891000" />
+      <workItem from="1671017391075" duration="4521000" />
+      <workItem from="1671183372389" duration="610000" />
+      <workItem from="1671353074383" duration="610000" />
+      <workItem from="1674201227901" duration="20000" />
+      <workItem from="1674201253244" duration="7929000" />
+      <workItem from="1674227628686" duration="2599000" />
     </task>
+    <task id="LOCAL-00001" summary="lab17">
+      <created>1668456271435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668456271436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab17" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab17" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lab24/detail.h</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
