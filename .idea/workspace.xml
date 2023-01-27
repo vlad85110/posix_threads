@@ -20,35 +20,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d9a63d1-de49-4643-9dbb-609c069d9e02" name="Changes" comment="lab17">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab18/lab18.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab18/lab18.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab18/list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab18/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab24/detail.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab24/detail.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab24/lab24.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab24/lab24.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab25/lab25.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab25/lab25.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab25/queue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab25/queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab26/lab26.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab26/lab26.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab26/queue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab26/queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/lab8.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/lab8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/times" afterDir="false" />
+    <list default="true" id="0d9a63d1-de49-4643-9dbb-609c069d9e02" name="Changes" comment="lab8">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/posix_thread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/posix_thread.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab17/lab17.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab17/lab17.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab17/list.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab17/list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/lab3.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/lab3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs.h" beforeDir="false" afterPath="$PROJECT_DIR$/labs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/lab8.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/lab8.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/times" beforeDir="false" afterPath="$PROJECT_DIR$/times" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +42,13 @@
     <option name="clangWarnings" value="-Wno-unused-variable,-Wno-infinite-recursion,-Wno-array-bounds,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wuninitialized,-Wunused-label,-Wunused-lambda-capture,-Wno-deprecated-declarations" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -102,7 +91,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -117,12 +106,38 @@
       <recent name="$PROJECT_DIR$/lab1" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="posix_thread" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="0" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="posix_thread" TARGET_NAME="posix_thread" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="posix_thread" RUN_TARGET_NAME="posix_thread">
+  <component name="RunManager" selected="CMake Application.posix_thread">
+    <configuration name="posix_thread" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="1" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="posix_thread" TARGET_NAME="posix_thread" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="posix_thread" RUN_TARGET_NAME="posix_thread">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="posix_thread" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.10 (posix_threads)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.posix_thread" />
+      <item itemvalue="Python.script" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -167,6 +182,10 @@
       <workItem from="1674201227901" duration="20000" />
       <workItem from="1674201253244" duration="7929000" />
       <workItem from="1674227628686" duration="2599000" />
+      <workItem from="1674485753806" duration="12463000" />
+      <workItem from="1674634458906" duration="9565000" />
+      <workItem from="1674709258203" duration="15550000" />
+      <workItem from="1674806448693" duration="7924000" />
     </task>
     <task id="LOCAL-00001" summary="lab17">
       <created>1668456271435</created>
@@ -175,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668456271436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab8">
+      <created>1674487177681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674487177681</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +220,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab17" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab17" />
+    <MESSAGE value="lab8" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

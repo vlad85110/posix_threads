@@ -9,23 +9,27 @@
 #include <pthread.h>
 #include <stdlib.h>
 
-#define ITER_COUNT 30000l//30000000000
+#define ITER_COUNT 10000000000
 
 struct args {
     double thread_sum;
     long iter_count;
     long start_index;
+    double time;
 };
 
 typedef struct args args_t;
 
 void pi_count(args_t *args) {
     double denominator;
+    double sum = 0;
 
-    for (long i = args->start_index; i < args->iter_count; ++i) {
-        denominator = 2.0 * (double)i + 1;
-        args->thread_sum += pow(-1, (double)i) / denominator;
+    for (long i = args->start_index; i < args->start_index + args->iter_count; ++i) {
+        denominator = (2.0 * (double)i) + 1;
+        sum += pow(-1, (double)i) / denominator;
     }
+
+    args->thread_sum = sum;
 }
 
 void lab8(int argc, char** argv) {
@@ -44,9 +48,9 @@ void lab8(int argc, char** argv) {
     pthread_t threads[thread_count - 1];
     args_t thread_args[thread_count];
     long iter_per_thread = ITER_COUNT / thread_count;
-    printf("%ld - %ld\n", ITER_COUNT, thread_count * iter_per_thread);
 
     struct timespec start, end;
+
     clock_gettime(CLOCK_REALTIME, &start);
 
     for (long i = 0; i < thread_count; ++i) {
@@ -63,8 +67,8 @@ void lab8(int argc, char** argv) {
             }
         }
     }
-
     pi_count(&thread_args[thread_count - 1]);
+
 
     for (long i = 0; i < thread_count; ++i) {
         if (i != thread_count - 1) {
@@ -77,9 +81,10 @@ void lab8(int argc, char** argv) {
     }
 
     clock_gettime(CLOCK_REALTIME, &end);
-//    printf("%lf\n",
-//           (double)(end.tv_sec-start.tv_sec)
-//           + 0.000000001*(double)(end.tv_nsec-start.tv_nsec));
 
-    printf("%.10lf\n", pi4 * 4);
+    printf("%lf\n",
+           (double)(end.tv_sec-start.tv_sec)
+           + 0.000000001*(double)(end.tv_nsec-start.tv_nsec));
+
+    printf("%lf\n", pi4);
 }
